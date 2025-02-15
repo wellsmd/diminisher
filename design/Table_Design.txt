@@ -1,0 +1,8 @@
+// urls Table
+ - short_id : String
+ - original_url : String
+ - userId : String
+
+// users Table
+ - userId : String
+ - urlList : List of Strings
