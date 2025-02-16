@@ -1,0 +1,93 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.mainWrapper_eExm {
+  flex: 1 0 auto;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size-adjust: 30px;
+}
+
+.entryfield {
+  width: 400px;
+  height: 25px;
+}
+
+rcss.flex {
+  display: flex;
+}
+
+.rcss.flex.column {
+  flex-direction: column;
+}
+
+.overlay-bg-container {
+  display: flex;
+  margin-bottom: 800px;
+  min-height: 240px;
+  position: relative;
+  width: 100%;
+  background: var(--background-higher);
+}
+
+body {
+  /* background-color: rgb(59, 200, 200); */
+  background-image: url("http://solarbenite.nu/images/gears.jpeg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.overlay-bg-container .content {
+  background-color: rgb(246, 242, 240);
+  border-radius: 12px;
+  z-index: 50;
+  left: 50%;
+  max-width: 900px;
+  min-width: 900px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  width: 80%;
+}
+
+.overlay-bg-container .content .welcome-content {
+  align-items: center;
+  box-shadow: rgba(2, 2, 3, 0.32) 0px 8px 16px 0px;
+  background: var(--background-default);
+  gap: 32px;
+  padding: 24px;
+}
+
+.rcss.p-16 {
+  padding: 16px;
+}
+
+.rcss.borderRadius-16 {
+  border-radius: 16px;
+}
+
+.rcss.flex.colWithGap-16 {
+  flex-direction: column;
+}
+
+.rcss.centerSelf {
+  align-self: center;
+  justify-self: center;
+}

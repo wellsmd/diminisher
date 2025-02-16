@@ -4,17 +4,17 @@ import javax.persistence.*;
 
 @Entity
 @Table(name="urls")
-public class URL {
+public class URLEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     private String shortId;
     private String originalUrl;
 
-    public URL() {
+    public URLEntity() {
     }
 
-    public URL(String shortId, String originalUrl) {
+    public URLEntity(String shortId, String originalUrl) {
         this.shortId = shortId;
         this.originalUrl = originalUrl;
     }

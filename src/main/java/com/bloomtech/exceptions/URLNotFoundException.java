@@ -1,2 +1,7 @@
-package com.bloomtech.exceptions;public class URLNotFoundException {
+package com.bloomtech.exceptions;
+
+public class URLNotFoundException extends RuntimeException {
+    public URLNotFoundException(String message) {
+        super(message);
+    }
 }
